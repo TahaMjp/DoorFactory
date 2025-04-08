@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: byekan;
+    font-style: normal;
+    src: url("/fonts/BYekan+.ttf");
+}
