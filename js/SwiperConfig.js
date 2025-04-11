@@ -45,3 +45,12 @@ let MobileNav = new Swiper(".MobileNav", {
   loop: true,
   reverseDirection: true,
 });
+
+//  Initialize Swiper
+let CatalogMobile = new Swiper(".CatalogMobile", {
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+  loop: true,
+});
