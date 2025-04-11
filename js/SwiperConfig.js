@@ -38,3 +38,14 @@ let CustomersSwiper = new Swiper(".CustomersSwiper", {
     delay: 2000,
   },
 });
+
+//  Initialize Swiper
+let MobileNav = new Swiper(".MobileNav", {
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+  slidesPerView: 3,
+  loop: true,
+  reverseDirection: true,
+});

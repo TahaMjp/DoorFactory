@@ -18,7 +18,7 @@
 
 <body>
     <ul
-        class="flex justify-around font-[byekan] flex-row-reverse text-xl top-0 sticky py-2 z-50 bg-gray-800 text-white">
+        class="lg:flex hidden justify-around font-[byekan] flex-row-reverse text-xl top-0 sticky py-2 z-50 bg-gray-800 text-white ">
         <li class="cursor-pointer hover:text-yellow-400 transition-colors">
             <a href="#!">خانه</a>
         </li>
@@ -35,6 +35,20 @@
             <a href="#!">همکار</a>
         </li>
     </ul>
+
+    <div class="swiper MobileNav w-full lg:hidden font-[byekan] text-lg top-0 sticky z-50 bg-gray-800 text-white">
+        <div class="swiper-wrapper py-2">
+            <div class="swiper-slide text-center"><a href="#!">محصولات</a></div>
+            <div class="swiper-slide text-center"><a href="#!">درباره ما</a></div>
+            <div class="swiper-slide text-center">
+                <a href="#!">خانه</a>
+            </div>
+
+            <div class="swiper-slide text-center"><a href="#!">مشتریان</a></div>
+            <div class="swiper-slide text-center"><a href="#!">همکار</a></div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+    </div>
 
     <div class="swiper BannerSwiper w-full">
         <div class="swiper-wrapper font-[byekan]">
@@ -334,9 +348,14 @@
         <div class="w-full flex justify-around">
             <p class="flex">&copy; 2003-2025 All Rights Reserved.</p>
             <p class="flex flex-row-reverse">.تمامی حقوق این سایت متعلق به شرکت ایران دور می باشد</p>
-
         </div>
     </div>
+
+    <a href="#!"
+        class="bg-green-500 w-15 h-15 fixed z-50 bottom-7 right-7 flex justify-center items-center rounded-full text-4xl text-white">
+        <div class="w-full h-full bg-green-800 animate-ping opacity-40 rounded-full absolute"></div>
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
     <!-- Scripts -->
     <script src=" js/SwiperConfig.js "></script>
