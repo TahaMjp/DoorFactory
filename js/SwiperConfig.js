@@ -41,10 +41,6 @@ let CustomersSwiper = new Swiper(".CustomersSwiper", {
 
 //  Initialize Swiper
 let MobileNav = new Swiper(".MobileNav", {
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: true,
-  },
   slidesPerView: 3,
   loop: true,
   reverseDirection: true,
