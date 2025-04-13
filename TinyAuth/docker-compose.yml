@@ -1,0 +1,21 @@
+services:
+  tinyauth:
+    image: ghcr.io/steveiliop56/tinyauth:v3
+    container_name: tinyauth
+    restart: unless-stopped
+    environment:
+      - SECRET=some-random-32-chars-string
+      - APP_URL=https://tahamjp.github.io/DoorFactory/TinyAuth
+      - USERS_FILE=users_file
+      - LOG_LEVEL=0
+    volumes:
+      - ./users_file:/app/users_file
+    networks:
+      - proxy
+    labels:
+      traefik.enable: true
+      traefik.http.routers.tinyauth.rule: Host(`tahamjp.github.io/DoorFactory/TinyAuth`)
+      traefik.http.middlewares.tinyauth.forwardauth.address: http://tinyauth:3000/api/auth/traefik
+  networks:
+    proxy:
+      external: true
