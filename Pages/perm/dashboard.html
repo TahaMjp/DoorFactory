@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../../src/output.css">
+</head>
+
+<body>
+    <div class="min-w-screen min-h-screen h-screen w-screen" id="LoginForm">
+        <div class="lg:w-2/12 w-10/12 mx-auto top-1/4 relative flex flex-col p-4 border-2 border-black">
+            <p class="text-4xl font-bold font-mono mx-auto">Welcome</p>
+            <div class="w-full flex flex-col gap-y-1 mt-2">
+                <label for="getUser" class="font-mono font-semibold">Username :</label>
+                <input type="text" name="getUser" id="getUser"
+                    class="border-2 border-black h-8 w-full p-2 mx-auto font-mono">
+            </div>
+            <div class="w-full flex flex-col gap-y-1 mt-3">
+                <label for="getPassword" class="font-mono font-semibold">Password :</label>
+                <input type="text" name="getPassword" id="getPassword"
+                    class="border-2 border-black h-8 w-full p-2 mx-auto font-mono">
+            </div>
+            <button class="w-full border-2 border-black font-mono font-bold mt-6 py-1" id="LoginBtn">Login</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+
+
+
+</html>
