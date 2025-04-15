@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="min-w-screen min-h-screen h-screen w-screen" id="LoginForm">
+    <div class="min-w-screen min-h-screen h-screen w-screen z-50 fixed bg-white" id="LoginForm">
         <div class="lg:w-2/12 w-10/12 mx-auto top-1/4 relative flex flex-col p-4 border-2 border-black">
             <p class="text-4xl font-bold font-mono mx-auto">Welcome</p>
             <div class="w-full flex flex-col gap-y-1 mt-2">
@@ -24,6 +24,11 @@
             </div>
             <button class="w-full border-2 border-black font-mono font-bold mt-6 py-1" id="LoginBtn">Login</button>
         </div>
+    </div>
+
+    <div class="w-full bg-red-400 flex justify-center">
+        <button>Edit</button>
+        <button>New</button>
     </div>
     <!-- Script -->
     <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
