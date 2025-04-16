@@ -3,21 +3,21 @@
     "id": 1,
     "image": "../../../images/۲۰۲۳۱۱۲۸_۱۲۱۰۰۳.jpg",
     "imageAlt": "door",
-    "header": "header text 1",
+    "header": "دلیل خرید درب ضد سرقت",
     "description": "text"
   },
   {
     "id": 2,
     "image": "../../../images/۲۰۲۳۱۱۲۸_۱۲۱۰۰۳.jpg",
     "imageAlt": "door",
-    "header": "header text 2",
-    "de,scription": "text"
+    "header": "چرا درب فولد آپ",
+    "description": "text"
   },
   {
     "id": 3,
     "image": "../../../images/۲۰۲۳۱۱۲۸_۱۲۱۰۰۳.jpg",
     "imageAlt": "door",
-    "header": "header text 3",
+    "header": "درب صنعتی",
     "description": "text"
   }
 ]
