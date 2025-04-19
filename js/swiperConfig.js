@@ -8,11 +8,7 @@ let modulsSwiper = new Swiper(".modulsSwiper", {
 
 //  Initialize Swiper
 let CustomersSwiper = new Swiper(".CustomersSwiper", {
-  slidesPerView: 3,
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: true,
-  },
+  slidesPerView: 4,
   loop: true,
   autoplay: {
     delay: 2000,
