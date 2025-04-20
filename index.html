@@ -16,11 +16,13 @@
 </head>
 
 <body>
-    <ul class="w-full font-[byekan] flex justify-around flex-row-reverse sticky top-0 z-50 bg-white">
-        <li class="flex items-center text-lg ">
+    <ul class="w-full font-[byekan] flex lg:justify-around flex-row-reverse lg:sticky fixed top-0 z-50 lg:bg-white ">
+        <li class="m-5 text-xl bg-white py-2 px-3 rounded-xl lg:hidden" id="mobileMenuBars"><i
+                class="fa-solid fa-bars"></i></li>
+        <li class="lg:flex hidden items-center text-lg ">
             <a href="#!">صفحه اصلی</a>
         </li>
-        <li>
+        <li class="lg:flex hidden">
             <div class="relative inline-block ">
                 <div class="group">
                     <button type="button"
@@ -41,13 +43,13 @@
                 </div>
             </div>
         </li>
-        <li class="flex items-center text-lg">
+        <li class="lg:flex hidden items-center text-lg">
             <a href="#!">بلاگ</a>
         </li>
-        <li class="flex items-center text-lg">
+        <li class="lg:flex hidden items-center text-lg">
             <a href="#!">درباره ما</a>
         </li>
-        <li>
+        <li class="lg:flex hidden">
             <div class="relative inline-block font-sans">
                 <div class="group">
                     <button type="button"
@@ -75,9 +77,9 @@
         <div class="w-full flex bg-blue-400 h-full relative font-[byekan]">
             <div class="w-full h-full absolute flex justify-center items-center">
                 <div class="w-full h-full bg-black opacity-50 absolute"></div>
-                <div class="w-10/12 mx-auto flex absolute justify-between">
-                    <img src="images/MinoLogo.png" alt="" class="w-3/12">
-                    <div class="flex flex-col items-end gap-y-5">
+                <div class="lg:w-10/12 w-full lg:mx-auto flex absolute lg:justify-between lg:flex-row flex-col">
+                    <img src="images/MinoLogo.png" alt="" class="lg:w-3/12 w-8/12 mx-auto lg:mx-0">
+                    <div class="flex flex-col lg:items-end text-center gap-y-5">
                         <p class="text-4xl text-white">شرکت پرشین دور</p>
                         <p class="text-3xl text-white">با افتخار اولین شرکت تولید کننده درب فولدآپ</p>
                     </div>
@@ -97,7 +99,7 @@
             </p>
             <p class="text-xl mt-2">هر پروژه فرصتی برای نوشتن فصل جدیدی از همدلی و پیشرفت مشترک است</p>
         </div>
-        <p class="w-8/12 text-xl flex flex-row-reverse p-2 text-end leading-9 mx-auto">
+        <p class="lg:w-8/12 w-full text-xl flex flex-row-reverse p-2 text-end leading-9 mx-auto">
             شرکت پرشین در با بیش از دو دهه تجربه در زمینه تولید و عرضه سیستم‌های حفاظتی و امنیتی پیشرفته فعالیت می‌کند.
             این شرکت تخصص ویژه‌ای در تولید و نصب انواع درب‌های اتوماتیک، کرکره‌های برقی هوشمند، جک‌های پارکینگی،
             شیشه‌های اتوماتیک، دوربین‌های مداربسته و تابلوهای
@@ -111,7 +113,7 @@
             درب‌های اتوماتیک در ایران تثبیت
             کرده است
         </p>
-        <div class="w-8/12 flex mx-auto mt-6">
+        <div class="lg:w-8/12 w-full flex mx-auto mt-6">
             <div id="84112242950" class="w-full ">
                 <script type="text/JavaScript" class=""
                     src="https://www.aparat.com/embed/fboe8y0?data[rnddiv]=84112242950&data[responsive]=yes&titleShow=true"></script>
@@ -162,7 +164,7 @@
             <p>
                 همراه شما در مسیر <span class="font-semibold">پیشرفت</span> و نوآوری
             </p>
-            <p class="text-xl mt-2">سازه‌هایی که با همکاری مشتریانمان به یادگار می‌گذاریم</p>
+            <p class="text-xl lg:mt-2 mt-4">سازه‌هایی که با همکاری مشتریانمان به یادگار می‌گذاریم</p>
         </div>
         <div class="swiper modulsSwiper w-full mt-2">
             <div class="swiper-wrapper">
@@ -284,24 +286,24 @@
             </p>
             <p class="text-xl mt-2">هر فصل نوید بخش همکاری های آینده است</p>
         </div>
-        <div class="w-full flex justify-around mt-2">
+        <div class="w-full flex lg:flex-row flex-col justify-around mt-2 items-center gap-y-4">
             <a href="#!"
-                class="flex flex-col hover:text-white p-2 w-2/12 hover:bg-gray-800 rounded-3xl transition-colors">
+                class="flex flex-col hover:text-white p-2 lg:w-2/12 hover:bg-gray-800 w-8/12 rounded-3xl transition-colors">
                 <img src="./images/CatalogueSample.png" alt="catalogue">
                 <p class="mx-auto text-2xl p-2 font-medium">درب رول آپ</p>
             </a>
             <a href="#!"
-                class="flex flex-col hover:text-white p-2 w-2/12 hover:bg-gray-800 rounded-3xl transition-colors">
+                class="flex flex-col hover:text-white p-2 lg:w-2/12 hover:bg-gray-800 w-8/12 rounded-3xl transition-colors">
                 <img src="./images/CatalogueSample.png" alt="catalogue">
                 <p class="mx-auto text-2xl p-2 font-medium">درب رول آپ</p>
             </a>
             <a href="#!"
-                class="flex flex-col hover:text-white p-2 w-2/12 hover:bg-gray-800 rounded-3xl transition-colors">
+                class="flex flex-col hover:text-white p-2 lg:w-2/12 hover:bg-gray-800 w-8/12 rounded-3xl transition-colors">
                 <img src="./images/CatalogueSample.png" alt="catalogue">
                 <p class="mx-auto text-2xl p-2 font-medium">درب رول آپ</p>
             </a>
             <a href="#!"
-                class="flex flex-col hover:text-white p-2 w-2/12 hover:bg-gray-800 rounded-3xl transition-colors">
+                class="flex flex-col hover:text-white p-2 lg:w-2/12 hover:bg-gray-800 w-8/12 rounded-3xl transition-colors">
                 <img src="./images/CatalogueSample.png" alt="catalogue">
                 <p class="mx-auto text-2xl p-2 font-medium">درب رول آپ</p>
             </a>
@@ -317,22 +319,22 @@
             <p class="text-xl mt-2">بسیار مفتخریم که با شرکت ها و برند های محبوب همکاری های بسیاری داشتیم</p>
         </div>
 
-        <div class="swiper CustomersSwiper w-full ">
+        <div class="swiper CustomersSwiper w-full lg:showFour">
             <div class="swiper-wrapper py-2 ">
                 <div class="swiper-slide relative"><img src="images/MinoLogo.png" alt="SampleCustomerLogo"
-                        class="lg:w-5/12 mx-auto">
+                        class="lg:w-5/12 mx-auto w-8/12">
                 </div>
                 <div class="swiper-slide relative"><img src="images/MinoLogo.png" alt="SampleCustomerLogo"
-                        class="lg:w-5/12 mx-auto">
+                        class="lg:w-5/12 mx-auto w-8/12">
                 </div>
                 <div class="swiper-slide relative"><img src="images/MinoLogo.png" alt="SampleCustomerLogo"
-                        class="lg:w-5/12 mx-auto">
+                        class="lg:w-5/12 mx-auto w-8/12">
                 </div>
                 <div class="swiper-slide relative"><img src="images/MinoLogo.png" alt="SampleCustomerLogo"
-                        class="lg:w-5/12 mx-auto">
+                        class="lg:w-5/12 mx-auto w-8/12">
                 </div>
                 <div class="swiper-slide relative"><img src="images/MinoLogo.png" alt="SampleCustomerLogo"
-                        class="lg:w-5/12 mx-auto">
+                        class="lg:w-5/12 mx-auto w-8/12">
                 </div>
             </div>
         </div>
@@ -402,13 +404,28 @@
             <p>آدرس : شرکت نفت<i class="fa-solid fa-location-dot mx-1"></i></p>
             </p>
         </ul>
+    </div>
 
+    <div class="lg:hidden duration-300 z-50 h-screen w-2/12 flex top-0 fixed right-0 flex-col font-[byekan] transition-transform translate-x-60 bg-white"
+        id="mobileMenu">
+        <button class="w-full flex text-2xl h-1/12 my-5" id="mobileMenuClose"><i
+                class="fa-solid fa-x mx-auto my-auto"></i>
+        </button>
 
+        <ul class="w-full h-10/12 flex flex-col justify-evenly ">
+            <li class="w-full h-fit -rotate-90 text-center text-lg">
+                <a href="#!">خانه</a>
+            </li>
+            <li class="w-full h-fit -rotate-90 text-center text-lg"><a href="#!">محصولات</a></li>
+            <li class="w-full h-fit -rotate-90 text-center text-lg"><a href="#!">بلاگ</a></li>
+            <li class="w-full h-fit -rotate-90 text-center text-lg"><a href="#!">درباره ما</a></li>
+            <li class="w-full h-fit -rotate-90 text-center text-lg"><a href="#!">En</a></li>
+        </ul>
     </div>
 
     <!-- Scripts -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="js/swiperConfig.js"></script>
+    <script src="js/mobileMenu.js"></script>
 
 
 </body>

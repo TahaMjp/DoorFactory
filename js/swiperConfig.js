@@ -7,10 +7,16 @@ let modulsSwiper = new Swiper(".modulsSwiper", {
 });
 
 //  Initialize Swiper
+
 let CustomersSwiper = new Swiper(".CustomersSwiper", {
-  slidesPerView: 4,
+  slidesPerView: 1,
   loop: true,
   autoplay: {
     delay: 2000,
+  },
+  breakpoints: {
+    769: {
+      slidesPerView: 4,
+    },
   },
 });
